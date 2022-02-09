@@ -181,10 +181,8 @@ class global_flow(tf.keras.layers.Layer):
                                      data_format='channels_last')
         
     def call(self, X):
-        #inshape = X.shape[-1]
         X = self.glob_avg_pool(X)
-        #X = tf.keras.layers.Reshape((1, 1, inshape))(X)
-        X = self.conv_1x1(X)  #as per figure in paper 1x1 conv comes first
+        X = self.conv_1x1(X) 
         X = self.bn(X)
         X = self.activation(X)
         if self.do_upsample ==True:
@@ -285,8 +283,6 @@ class agcn(tf.keras.layers.Layer):
         self.add = Add()
         
     def call(self, X):
-        # please implement the above mentioned architecture
-        
         x_p1 = self.conv_71_1(X)
         x_p1 = self.conv_17_1(x_p1)
         
