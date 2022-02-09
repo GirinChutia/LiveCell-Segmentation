@@ -6,12 +6,12 @@ LIVECell is a large, high-quality, manually annotated and expert-validated datas
 
 ---
 ### Model used : CANet with few modifications.
-Loss Used : dice_loss + (1 * focal_loss)  
-Total Epochs : 10  
-Training IOU : 0.6533  
-Validation IOU : 0.7483  
-Training F1-Score : 0.7812  
-Validation F1-Score : 0.8532  
+* Loss Used : dice_loss + (1 * focal_loss)  
+* Total Epochs : 10  
+* Training IOU Score : 0.6533  
+* Validation IOU Score : 0.7483  
+* Training F1 Score : 0.7812  
+* Validation F1 Score : 0.8532  
 
 ---
 ### Model Performance.
