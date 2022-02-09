@@ -18,6 +18,10 @@ LIVECell is a large, high-quality, manually annotated and expert-validated datas
 <img src="/performace_curves.JPG" width="660" height="280" />
 
 ---
+### Visualization of model prediction.
+<img src="/model_prediction.JPG" width="680" height="240" />
+
+---
 #### Reference :
   1. https://arxiv.org/abs/1903.02351
   2. https://www.nature.com/articles/s41592-021-01249-6
