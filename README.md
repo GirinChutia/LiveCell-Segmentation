@@ -1,6 +1,6 @@
-# Sementic-Segmentation on Live Cell Dataset (https://sartorius-research.github.io/LIVECell/)
+# Sementic-Segmentation on LIVECell Dataset 
 
-## LIVECell Dataset 
+## LIVECell Dataset (https://sartorius-research.github.io/LIVECell/)
 ### LIVECell is a large, high-quality, manually annotated and expert-validated dataset of phase-contrast images, consisting of over 1.6 million cells from a diverse set of cell morphologies and culture densities.
 <img src="https://production-media.paperswithcode.com/datasets/cell-example.png" width="640" height="300" />
 
