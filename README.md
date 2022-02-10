@@ -5,7 +5,7 @@ LIVECell is a large, high-quality, manually annotated and expert-validated datas
 <img src="https://production-media.paperswithcode.com/datasets/cell-example.png" width="640" height="300" />
 
 ---
-### Model used : CANet with few modifications.
+### Model used : CANet (Chained Context Aggregation Network) with few modifications.
 * Loss Used : dice_loss + (1 * focal_loss)  
 * Total Epochs : 10  
 * Training IOU Score : 0.6533  
@@ -23,8 +23,7 @@ LIVECell is a large, high-quality, manually annotated and expert-validated datas
 
 ---
 ### Reference :
-  1. https://arxiv.org/abs/1903.02351
-  2. https://www.nature.com/articles/s41592-021-01249-6
-  3. https://www.sciencedirect.com/science/article/abs/pii/S0262885621002146
+  1. https://www.nature.com/articles/s41592-021-01249-6
+  2. https://www.sciencedirect.com/science/article/abs/pii/S0262885621002146
 
 
